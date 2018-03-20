@@ -1,0 +1,47 @@
+input {
+    font-family: 'Cutive Mono', monospace;
+    margin: 1.5vmin 5vmin 1vmin 5vmin;
+    border: 1px solid #6780b3;
+    font-size: 1.5rem;
+    padding: 0.8vmin;
+    width: 33vmin;
+}
+
+input:focus {
+    border-color: #362c36;
+    outline: none;
+}
+
+input:not(:placeholder-shown) {
+    border-color: #362c36;
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid #362c36;
+    transition-duration: 0.3s;
+    margin-top: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #eeeeeb;
+}
+
+input:last-of-type {
+    margin-bottom: 1.5vmin
+}
+
+form {
+    display: inline-block;
+    border: 1px solid #362c36;
+}
+
+.inputContainer {
+    margin-top: 25vmin;
+    padding: 1.5vmin 0vmin 1.5vmin 0vmin;
+}
+
+#signupLink {
+    margin-bottom: 0;
+}

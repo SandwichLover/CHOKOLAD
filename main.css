@@ -1,0 +1,98 @@
+#contentContainer {
+    margin: auto;
+    max-width: 1080px;
+}
+
+#mainContainer {
+    text-align: center;
+}
+
+.buttonRow {
+    display: inline-flex;
+    float: right;
+}
+
+
+.buttonRowButton:first-of-type {
+    border: none;
+    border-bottom: 2px solid #362c36;
+}
+
+.buttonRowButton {
+    margin: auto;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 2.5rem;
+    color: #362c36;
+
+    padding: 0 1vmin 0 1vmin;
+    border-left: 1px solid #4d4c59;
+    border-bottom: 2px solid #362c36;
+}
+
+.buttonRowButton:hover {
+    color: #6780b3;
+    border-bottom: 2px solid #6780b3;
+}
+
+#logoContainer {
+    display: inline-block;
+}
+
+#logo {
+    font-family: 'Cutive Mono', monospace;
+    margin-top: 0;
+    margin-bottom: 2vmin;
+    font-size: 2.5rem;
+    color: #362c36;
+    border-bottom: 2px solid #362c36;
+    animation-duration: 0.5s;
+}
+
+#logo:hover {
+    color: #6780b3;
+    border-color: #6780b3;
+}
+
+@media only screen and (max-width: 679px) {
+    header {
+        text-align: center;
+        margin: 8px;
+        margin-bottom: 0;
+    }
+
+
+    .buttonRow {
+        float: none;
+        text-align: center;
+        align-items: center;
+        border-bottom: none;
+    }
+
+    #mainImage {
+        width: 100vmin;
+        height: auto;
+    }
+    body {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 679px) {
+    header {
+        text-align: center;
+        margin: 8px;
+        margin-bottom: 0;
+    }
+
+
+    .buttonRow {
+        float: none;
+        text-align: center;
+        align-items: center;
+        border-bottom: none;
+    }
+
+    body {
+        margin: 0;
+    }
+}

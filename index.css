@@ -1,0 +1,27 @@
+#mainImageContainer {
+    margin-top: 1vmin;
+    display: inline-flex;
+}
+
+#mainImage {
+    height: 60vmin;
+}
+
+#countdown {
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    margin-top: 1.5vmin;
+    font-family: 'Cutive Mono', monospace;
+    border: 1px solid #4d4c59;
+    color: #71777d;
+    font-size: 1.7rem;
+}
+
+
+
+@media only screen and (max-width: 679px) {
+    #mainImage {
+        width: 100vmin;
+        height: 100%;
+    }
+}
